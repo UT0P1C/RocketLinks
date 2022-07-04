@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #FC466B;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.icon{
+	width: 93px;
+	height: 93px;
+	border: 4px solid #4263EB;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+.main-container{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	height: 550px;
+	width: 350px;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+.title{
+	font-size: 32px;
+	margin: 5px 0;
+}
+
+.social-links{
+	list-style: none;
+}
+
+.link-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	width: 300px;
+	height: 53px;
+	border-radius: 10px;
+	margin: 20px;
+	background-color: #4263EB;
+	color: #cacaca;
+	font-size: 20px;
+	font-weight: bold;
+
+	transition: 0.2s;
+}
+
+.link-btn:hover{
+background-color: #cacaca;
+color: #4263EB;
+}
+
+.link-btn i {
+margin-right: 10px;
+}
+
+p{
+	color: #111;
+	font-weight: bold;
+}

@@ -1,7 +1,5 @@
-<h1 align="center">
-  Rocket Links 🚀
-</h1>
 
+ # Rocket Links 🚀
 
 ## 💻 O que é
   Um projeto de "árvore de links" feito na maratona discover 2.0 da rocketseat
